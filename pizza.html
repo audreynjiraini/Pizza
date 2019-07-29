@@ -75,7 +75,7 @@
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <div>
-                <img class="resize3" src="Images/periperichicken.jpg" alt="bbq macon">
+                <img class="resize3" src="Images/periperichicken.jpg" alt="periperichicken">
                 <p id="overlay3" class="text">Peri Peri Chicken. The toppings are: Spicy peri-peri chicken.</p>
               </div>
             </div>
@@ -87,7 +87,7 @@
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                 <div>
-                  <img class="resize4" src="Images/BBQ-Cauliflower-Pizza-30.jpg" alt="buffalo cauliflower">
+                  <img class="resize4" src="Images/BBQ-Cauliflower-Pizza-30.jpg" alt="buffalo">
                   <p id="overlay4" class="text">Buffalo Cauliflower Wing with Tofu Blue Cheese Spread. The toppings are:
                     Buffalo cauliflower wings and blue cheese.</p>
                 </div>
@@ -149,54 +149,95 @@
             </tr>
 
             <tr>
-                <td>Crispy</td>
-                <td>Small</td>
-                <td>Kshs. 700</td>
-              </tr>
-              <tr>
-                <td>Crispy</td>
-                <td>Medium</td>
-                <td>Kshs. 900</td>
-              </tr>
-              <tr>
-                <td>Crispy</td>
-                <td>Large</td>
-                <td>Kshs. 1,100</td>
-              </tr>
+              <td>Crispy</td>
+              <td>Small</td>
+              <td>Kshs. 700</td>
+            </tr>
+            <tr>
+              <td>Crispy</td>
+              <td>Medium</td>
+              <td>Kshs. 900</td>
+            </tr>
+            <tr>
+              <td>Crispy</td>
+              <td>Large</td>
+              <td>Kshs. 1,100</td>
+            </tr>
 
-              <tr>
-                  <td>Gluten-Free</td>
-                  <td>Small</td>
-                  <td>Kshs. 800</td>
-                </tr>
-                <tr>
-                  <td>Gluten-Free</td>
-                  <td>Medium</td>
-                  <td>Kshs. 1,000</td>
-                </tr>
-                <tr>
-                  <td>Gluten-Free</td>
-                  <td>Large</td>
-                  <td>Kshs. 1,200</td>
-                </tr>
+            <tr>
+              <td>Gluten-Free</td>
+              <td>Small</td>
+              <td>Kshs. 800</td>
+            </tr>
+            <tr>
+              <td>Gluten-Free</td>
+              <td>Medium</td>
+              <td>Kshs. 1,000</td>
+            </tr>
+            <tr>
+              <td>Gluten-Free</td>
+              <td>Large</td>
+              <td>Kshs. 1,200</td>
+            </tr>
 
-                <tr>
-                    <td>Stuffed</td>
-                    <td>Small</td>
-                    <td>Kshs. 900</td>
-                  </tr>
-                  <tr>
-                    <td>Stuffed</td>
-                    <td>Medium</td>
-                    <td>Kshs. 1,100</td>
-                  </tr>
-                  <tr>
-                    <td>Stuffed</td>
-                    <td>Large</td>
-                    <td>Kshs. 1,300</td>
-                  </tr>
+            <tr>
+              <td>Stuffed</td>
+              <td>Small</td>
+              <td>Kshs. 900</td>
+            </tr>
+            <tr>
+              <td>Stuffed</td>
+              <td>Medium</td>
+              <td>Kshs. 1,100</td>
+            </tr>
+            <tr>
+              <td>Stuffed</td>
+              <td>Large</td>
+              <td>Kshs. 1,300</td>
+            </tr>
           </table>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="order">
+    <div class="container4">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="center">Order Now!</h1>
+          <p>When you are ready to place your order, please input your details below.</p>
+        </div>
+        <form action="">
+          <label for="select">Select the pizza of your choice:</label>
+          <select class="browser-default custom-select custom-select-md mb-3 name">
+            <option value="meatdeluxe">Meat Deluxe pizza</option>
+            <option value="bbqmacon">BBQ Macon Pizza</option>
+            <option value="periperichicken">Chicken PeriPeri Pizza</option>
+            <option value="buffalo">Buffalo Cauliflower Wing with Tofu Blue Cheese Spread Pizza</option>
+            <option value="margherita">Vegan Margherita Pizza</option>
+            <option value="eggplant">Eggplant and Caramelized Onions Pizza</option>
+          </select><br><br>
+
+          <label for="select">Select your preferred size</label>
+          <select class="browser-default custom-select custom-select-md mb-3" id="size">
+            <option value="large">Large</option>
+            <option value="medium">Medium</option>
+            <option value="small">Small</option>
+          </select><br><br>
+
+          <label for="Toppings">Select your preferred toppings</label><br>
+            <input type="checkbox" name="topping1" value="Macon"> Macon<br>
+            <input type="checkbox" name="topping2" value="Pepperoni"> Pepperoni<br>
+            <input type="checkbox" name="topping3" value="Chicken"> Chicken<br>
+            <input type="checkbox" name="topping4" value="Cauliflower"> Cauliflower<br>
+            <input type="checkbox" name="topping5" value="Cherry Tomato Slices"> Cherry Tomato Slices<br>
+            <input type="checkbox" name="topping6" value="Eggplant"> Eggplant<br><br>
+
+          <button type="submit" class="btn btn-info proceed">Submit</button>
+          <br>
+          <br>
+        </form>
       </div>
     </div>
   </div>
