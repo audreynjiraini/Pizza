@@ -5,8 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Just Pizza!</title>
@@ -35,7 +40,7 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h1 class="center">About Us</h1>
-          <h2>This is our story...</h2>
+          <h3>This is our story...</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
             magna aliqua. Venenatis a condimentum vitae sapien pellentesque habitant. Integer vitae justo eget magna
@@ -57,61 +62,106 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h1 class="center"> Our Menu</h1>
         </div>
-        <div class="tab-menu">
+      </div>
+      <div class="tab-menu">
+        <div class="tab-title-menu">
+          <h2 class="center">MEAT LOVERS</h2>
+          <p> <i class="flaticon-meat"></i> </p>
+        </div>
+        <div class="row">
+          <div class="justify-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <div class="card shadow" style="width: 20rem;">
+                <div class="inner">
+                  <img src="Images/meatdeluxe.jpg" class="card-img-top" alt="meatdeluxe">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Meat Deluxe. The toppings are: Beef pepperoni, bbq steak, macon and sandwich
+                    beef.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="justify-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <div class="card shadow" style="width: 20rem;">
+                <div class="inner">
+                  <img src="Images/bbqmacon.jpg" class="card-img-top" alt="bbqmacon">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">BBQ Macon. The toppings are: Succulent bbq chicken, macon, sweetcorn and onion.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="justify-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <div class="card shadow" style="width: 20rem;">
+                <div class="inner">
+                  <img src="Images/periperichicken.jpg" class="card-img-top" alt="periperichicken">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Peri Peri Chicken. The toppings are: Spicy peri-peri chicken.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div>
           <div class="tab-title-menu">
-            <h2>MEAT LOVERS</h2>
-            <p> <i class="flaticon-meat"></i> </p>
+            <h2 class="center">VEGAN</h2>
+            <p> <i class="flaticon-vegan"></i> </p>
           </div>
-          <div class="col-md-4">
-            <div>
-              <img class="resize1" src="Images/meatdeluxe.jpg" alt="meat deluxe">
-              <p id="overlay1" class="text">Meat Deluxe. The toppings are: Beef pepperoni, bbq steak, macon and
-                sandwich beef </p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div>
-              <img class="resize2" src="Images/bbqmacon.jpg" alt="bbq macon">
-              <p id="overlay2" class="text">BBQ Macon. The toppings are: Succulent bbq chicken, macon, sweetcorn and
-                onion. </p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div>
-              <img class="resize3" src="Images/periperichicken.jpg" alt="periperichicken">
-              <p id="overlay3" class="text">Peri Peri Chicken. The toppings are: Spicy peri-peri chicken.</p>
-            </div>
-          </div>
-
-          <div>
-            <div class="tab-title-menu">
-              <h2>VEGAN</h2>
-              <p> <i class="flaticon-vegan"></i> </p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-              <div>
-                <img class="resize4" src="Images/BBQ-Cauliflower-Pizza-30.jpg" alt="buffalo">
-                <p id="overlay4" class="text">Buffalo Cauliflower Wing with Tofu Blue Cheese Spread. The toppings
-                  are:
-                  Buffalo cauliflower wings and blue cheese.</p>
+          <div class="row">
+            <div class="justify-center">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="card shadow" style="width: 20rem;">
+                  <div class="inner">
+                    <img src="Images/BBQ-Cauliflower-Pizza-30.jpg" class="card-img-top" alt="buffalo">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Buffalo Cauliflower Wing with Tofu Blue Cheese Spread. The toppings are:
+                      Buffalo
+                      cauliflower wings and blue cheese.</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <br>
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-              <div>
-                <img class="resize5" src="Images/Vegan-Pizza-Margherita-3.png" alt="margherita">
-                <p id="overlay5" class="text">Vegan Margherita. The toppings are: Cherry tomato slices, basil and
-                  dried chilli pepper flakes.</p>
+            <div class="justify-center">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="card shadow" style="width: 20rem;">
+                  <div class="inner">
+                    <img src="Images/Vegan-Pizza-Margherita-3.png" class="card-img-top" alt="margherita">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Vegan Margherita. The toppings are: Cherry tomato slices, basil and dried
+                      chilli
+                      pepper flakes.</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <br>
 
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-              <div>
-                <img class="resize6" src="Images/eggplantpizza.png" alt="eggplant">
-                <p id="overlay6" class="text">Eggplant and caramelized onions. The toppings are: eggplant and onion.
-                </p>
+            <div class="justify-center">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="card shadow" style="width: 20rem;">
+                  <div class="inner">
+                    <img src="Images/eggplantpizza.png" class="card-img-top" alt="eggplant">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Eggplant and caramelized onions. The toppings are: eggplant and onion.</p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -213,7 +263,7 @@
           <h1 class="center">Order Now!</h1>
           <p>When you are ready to place your order, please input your details below.</p>
         </div>
-        <form action="">
+        <form id="form" action="">
           <label for="select">Select the pizza of your choice:</label>
           <select class="browser-default custom-select custom-select-md mb-3 name">
             <option value="meatdeluxe">Meat Deluxe pizza</option>
@@ -248,27 +298,31 @@
   </div>
 
   <div id="contact">
-    <div class="container6">
-      <h1 class="center">Contact Us</h1>
-      <form>
-        <div class="form-group">
-          <label>Name:</label>
-          <input type="text" class="form-control" placeholder="Your Name"><br><br>
-          <label>Message:</label>
-          <textarea class="form-control" id="message"
-            placeholder="Anything you would like us to know..."></textarea><br><br><br>
-          <button type="button" class="btn btn-outline-light btn-block">Submit</button>
-        </div>
-      </form>
-      <div class="contact">
-        <h2>Talk to us:</h2>
-        <p><span>Tel:</span> 0737819013</p>
-        <p><span>Email:</span>audreynjiraini@gmail.com</p>
-        <a href="https://twitter.com/"><img class="icon" src="social_icons/twitter.png" alt="Twitter"></a>
-        <a href="https://www.facebook.com/"> <img class="icon" src="social_icons/facebook.png" alt="Facebook"></a>
 
+    <div class="container6">
+      <div id="overlay">
+        <h1 class="center" id="contact">Contact Us</h1>
+        <form>
+          <div class="form-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" placeholder="Your Name" id="name"><br><br>
+            <label>Message:</label>
+            <textarea class="form-control" id="message"
+              placeholder="Anything you would like us to know..."></textarea><br><br><br>
+            <button type="button" class="btn btn-outline-light btn-block">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
+  </div>
+  <div class="contact">
+    <h2 class="center">Talk to us:</h2>
+    <p class="center"><span>Tel:</span> 0737819013</p>
+    <p class="center"><span>Email:</span>audreynjiraini@gmail.com</p>
+  </div>
+  <div class="socialicons">
+    <a href="https://twitter.com/"><img class="icon" src="social_icons/twitter.png" alt="Twitter"></a>
+    <a href="https://www.facebook.com/"> <img class="icon" src="social_icons/facebook.png" alt="Facebook"></a>
   </div>
 </body>
 
