@@ -37,13 +37,13 @@ If the customer is ordering more one pizza, the process changes. They make their
 
 ###Delivery
 #### One Pizza
+If the customer is ordering only one pizza, the process is fairly simple. They make their choice of flavour/type, size, crust, and toppings they want on their pizza. After making the selection, they click on the order button. They confirm their order details are correct in the "Your order is as follows" section and the price for their order is shown therein.They then click the complete order button and their bill is shown there. After that, they fill in their delivery information in the section right below and click the "checkout" button. The customer receives a message showing the cost inclusive of the delivery fee.
+
+#### Multiple Pizzas
+If the customer is ordering more one pizza, the process changes. They make their choice of flavour/type, size, crust, and toppings they want on their first pizza. After making the selection, they click on the order button. Then, they change the selection for the next pizza they want and click the "add another pizza" button. they repeat the process until they have ordered all the pizzas they want. They confirm their order details are correct in the "Your order is as follows" section and the price for their order is shown therein.They then click the complete order button and their bill is shown there. After that, they fill in their delivery information in the section right below and click the "checkout" button. The customer receives a message showing the cost inclusive of the delivery fee.
 
 ## Known Bugs
-<<<<<<< HEAD
 No known bugs.
-=======
-No known bugs
->>>>>>> master
 
 ## Contact Information
 If you need clarification on any aspect, feel free to reach me on my email at audreynjiraini@gmail.com
