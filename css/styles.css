@@ -1,3 +1,7 @@
+p{
+    font-family: 'Raleway';
+    font-size: 22px;
+}
 .bg-img {
     background-image: url(https://raw.githubusercontent.com/audreynjiraini/Pizza/master/Images/pizza2.jpeg);
     min-height: 700px;
@@ -85,6 +89,8 @@
   #form {
     margin: 20px;
     padding: 20px;
+    font-family: 'Raleway';
+    font-size: 18px;
   }
 
   .menu{
@@ -156,8 +162,18 @@
 }
 #choice {
   text-align: center;
+  font-family: 'Raleway';
 }
 .table {
   align-content: center;
   text-align: center;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+.delivery {
+  text-align: center;
+  align-content: center;
+}
+button {
+  font-family: 'Raleway';
 }
