@@ -139,8 +139,8 @@ $(document).ready(function(){
       $("#plusdelivery").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliveryamount= completeTotal+200;
-      console.log("You will pay Ksh. "+deliveryamount+" on delivery");
+      let deliveryamount= completeTotal + 200;
+      console.log("You will pay Ksh. " + deliveryamount + " on delivery");
       $("#totalbill").append("Your total is: "+deliveryamount);
     });
 
