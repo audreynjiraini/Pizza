@@ -52,7 +52,7 @@
     background-color: #dddddd;
   }
 
-  .container2, .container3, .container4, .container5, .container6 {
+  .container2, .container3, .container4, .container5, .container6, .container7, .container8 {
     position: relative;
     margin: 20px;
     width: auto;
@@ -118,6 +118,7 @@
   #overlay {
     background-image: url(https://raw.githubusercontent.com/audreynjiraini/Pizza/master/Images/pizza3.jpeg);
     background-position: center;
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -144,4 +145,19 @@
 }
 #contact {
   color: white;
+}
+.left {
+  text-align: left;
+  font-weight: bold;
+}
+.center-bold {
+  text-align: center;
+  font-weight: bold;
+}
+#choice {
+  text-align: center;
+}
+.table {
+  align-content: center;
+  text-align: center;
 }
