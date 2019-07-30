@@ -1,23 +1,20 @@
 # Just Pizza!
-This is the landing page for Delani Stu.
+This is the Just Pizza! webpage..
 
-#### 19 July 2019
+#### 28 July 2019
 By Audrey Njiraini
 
 ## Description
-This landing page consists of 7 sections
+This landing page consists of 4 sections
 <ol>
-    <li>Welcome section</li>
     <li>About us section</li>
-    <li>Services section</li>
-    <li>What we do section</li>
-    <li>Portfolio section</li>
-    <li>Contact us section</li>
-    <li>Social media section</li>
+    <li>Our Menu section</li>
+    <li>Order Now section</li>
+    <li>Contact Us section</li>
 </ol>
 
 ## Setup/Installation Requirements
-* You can view the page at https://audreynjiraini.github.io/Independent-Project-3/
+* You can view the page at https://audreynjiraini.github.io/Pizza/
 
 ## Technologies Used
 <ul>
@@ -29,7 +26,17 @@ This landing page consists of 7 sections
 </ul>
 
 ## BDD
-On the contact form, the user enters their name, email address and their message. If all fields have been filled out correctly, the user receives an alert informing them that their message has been received. If the information entered is not valid, the user receives an alert telling them to confirm the informatin is correct and try again.
+The user is taken through the first two sections where they get to see what we offer. Once the customer is sure on what they want to order, they scroll to the order now section. 
+### Pickup
+
+#### One Pizza
+If the customer is ordering only one pizza, the process is fairly simple. They make their choice of flavour/type, size, crust, and toppings they want on their pizza. After making the selection, they click on the order button. They confirm their order details are correct in the "Your order is as follows" section and the price for their order is shown therein.They then click the complete order button and their bill is shown there. This is the amount that they will pay on pickup. 
+
+#### Multiple Pizzas
+If the customer is ordering more one pizza, the process changes. They make their choice of flavour/type, size, crust, and toppings they want on their first pizza. After making the selection, they click on the order button. Then, they change the selection for the next pizza they want and click the "add another pizza" button. they repeat the process until they have ordered all the pizzas they want. They confirm their order details are correct in the "Your order is as follows" section and the price for their order is shown therein.They then click the complete order button and their bill is shown there. This is the amount that they will pay on pickup.
+
+###Delivery
+#### One Pizza
 
 ## Known Bugs
 <<<<<<< HEAD
